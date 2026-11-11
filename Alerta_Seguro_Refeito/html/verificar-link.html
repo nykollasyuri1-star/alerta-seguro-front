@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Alerta Seguro - Verificar link</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <aside class="menu">
+        <h2>🛡 Alerta Seguro</h2>
+        <p>Aprenda a se proteger</p>
+        <nav><a href="index.html">🏠 Início</a><a href="checklist.html">☑ Checklist</a><a href="dicas.html">💡
+                Dicas</a><a class="ativo" href="verificar-link.html">🔗 Verificar link</a><a
+                href="analisar-mensagem.html">✉ Mensagem suspeita</a></nav>
+    </aside>
+    <main class="conteudo">
+        <section class="cartao"><small>FERRAMENTA DE PREVENÇÃO</small>
+            <h1>Verificador de links</h1>
+            <p>Cole o endereço que recebeu. A ferramenta procura alguns sinais que merecem atenção.</p><label
+                for="linkSuspeito">Endereço do site:</label><input class="campo" type="text" id="linkSuspeito"
+                placeholder="https://www.exemplo.com"><button class="botao" id="verificarLinkBtn"
+                type="button">Verificar link</button><button class="botao cinza" id="limparLinkBtn"
+                type="button">Limpar</button>
+            <div id="resultadoLink" class="resultado" aria-live="polite"></div>
+            <div class="aviso"><b>Importante:</b> esta ferramenta usa regras simples e não consulta uma base de dados de
+                sites maliciosos. Não confirma que um link é golpe nem garante que um site seja seguro. Na dúvida, não
+                acesse.</div>
+        </section>
+    </main>
+</body>
+
+</html>

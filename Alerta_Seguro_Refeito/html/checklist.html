@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Alerta Seguro - Checklist</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <aside class="menu">
+        <h2>🛡 Alerta Seguro</h2>
+        <p>Aprenda a se proteger</p>
+        <nav><a href="index.html">🏠 Início</a><a class="ativo" href="checklist.html">☑ Checklist</a><a
+                href="dicas.html">💡 Dicas</a><a href="verificar-link.html">🔗 Verificar link</a><a
+                href="analisar-mensagem.html">✉ Mensagem suspeita</a></nav>
+    </aside>
+    <main class="conteudo">
+        <section class="cartao"><small>AVALIE SEUS HÁBITOS</small>
+            <h1>Checklist de segurança</h1>
+            <p>Marque as atitudes que você pratica. Depois, clique em avaliar para ver como estão seus hábitos.</p>
+            <form id="formChecklist"><label class="item"><input type="checkbox" class="item-seguranca"> Uso senhas
+                    diferentes nas minhas contas importantes.</label><label class="item"><input type="checkbox"
+                        class="item-seguranca"> Ativei a verificação em duas etapas quando disponível.</label><label
+                    class="item"><input type="checkbox" class="item-seguranca"> Confiro o endereço do site antes de
+                    informar meus dados.</label><label class="item"><input type="checkbox" class="item-seguranca"> Nunca
+                    compartilho senhas ou códigos recebidos por SMS.</label><label class="item"><input type="checkbox"
+                        class="item-seguranca"> Confirmo pedidos de dinheiro por outro canal antes de
+                    pagar.</label><label class="item"><input type="checkbox" class="item-seguranca"> Mantenho meu
+                    celular e aplicativos atualizados.</label><label class="item"><input type="checkbox"
+                        class="item-seguranca"> Desconfio de ofertas boas demais para ser verdade.</label><label
+                    class="item"><input type="checkbox" class="item-seguranca"> Evito clicar em links enviados por
+                    desconhecidos.</label><button type="button" class="botao" id="avaliarChecklist">Avaliar meus
+                    hábitos</button><button type="reset" class="botao cinza">Limpar respostas</button></form>
+            <div id="resultadoChecklist" class="resultado" aria-live="polite"></div>
+            <p class="nota">Avaliação educativa baseada apenas nas respostas marcadas. Não mede toda a segurança dos
+                seus dispositivos e contas.</p>
+        </section>
+    </main>
+</body>
+
+</html>
